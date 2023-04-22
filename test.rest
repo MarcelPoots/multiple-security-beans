@@ -1,0 +1,3 @@
+GET http://localhost:8080/api/posts
+
+### Should not return anything but give 401 Unauthorized

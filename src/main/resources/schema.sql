@@ -4,4 +4,4 @@ create table Post (
     content text not null
 );
 
-INSERT INTO POST(title,content) VALUES ('Hello, World!','My First Blog Post');
+-- INSERT INTO POST(title,content) VALUES ('Hello, World!','My First Blog Post');

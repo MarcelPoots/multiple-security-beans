@@ -2,6 +2,8 @@ http://localhost:8080/ no security
 
 http://localhost:8080/private use (user: user, pw: password) see SecurityConfig line 64
 
+http://localhost:8080/api/posts same as /private
+
 http://localhost:8080/h2-console/
 
 connection: jdbc:h2:mem:blog

@@ -18,11 +18,11 @@ public class Application {
     @Bean
     CommandLineRunner commandLineRunner(PostRepository repository) {
         return args -> {
-/*            repository.save(new Post(1, "title1", "content1"));
-            repository.save(new Post(2, "title2", "content2"));
-            repository.save(new Post(3, "title3", "content3"));
-            repository.save(new Post(4, "title4", "content4"));
-            repository.save(new Post(5, "title5", "content5"));*/
+            repository.save(new Post(null,"title1", "content1"));
+            repository.save(new Post(null, "title2", "content2"));
+            repository.save(new Post(null, "title3", "content3"));
+            repository.save(new Post(null, "title4", "content4"));
+            repository.save(new Post(null, "title5", "content5"));
         };
     }
 }
